@@ -16,7 +16,34 @@ You will need a shapefile that defines the location of the object. In this case 
 * LENGTE_BOEZEM, the length of the crosssection towards the river
 * INTERVAL, the distance between the points on the crosssection (the AHN data has a 0.5m resolution in x and y direction)
 
+### Sample
 
+* lz csv files
+
+```
+l,z
+-20.0,0.205
+-19.5,0.235
+-19.0,0.211
+-18.5,0.286
+-18.0,0.334
+```
+
+* lxyz files
+
+```
+l,x,y,z
+-20.0,127038.72,482981.98,0.205
+-19.5,127039.11,482982.30,0.235
+-19.0,127039.49,482982.62,0.211
+-18.5,127039.88,482982.94,0.286
+-18.0,127040.26,482983.26,0.334
+...
+```
+
+* plot
+
+![sample image](https://github.com/breinbaas/waternet_crosssections/blob/master/img/sample.png)
 
 
 ### Disclaimer
@@ -26,7 +53,7 @@ You will need a shapefile that defines the location of the object. In this case 
 
 ### Contact
 
-Need a serious non vibe coder? Contact me at breinbaas@pm.me
+Need a serious non vibe / AI only coder? Contact me at breinbaas@pm.me
 
 
 
