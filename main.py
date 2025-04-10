@@ -18,10 +18,6 @@ LENGTE_POLDER = 50
 LENGTE_BOEZEM = 20
 INTERVAL = 0.5
 
-# read shapefile
-shape = shapefile.Reader(ROUTEGEOMETRIE_SHAPE)
-
-
 
 class Tile:
     def __init__(self, filename, xmin, ymax, xmax, ymin, nodata):
@@ -110,6 +106,9 @@ class ReflinePart:
 
 def main():
     print("Take a coffee.. this might take a while...")
+
+    # read shapefile
+    shape = shapefile.Reader(ROUTEGEOMETRIE_SHAPE)
     
     # we expect a metadata file of the raster files in the AHN5_PATH 
     # if it's not there we will create it
