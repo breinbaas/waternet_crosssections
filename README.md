@@ -9,7 +9,7 @@ Need a serious non vibe / AI only coder? Contact me at breinbaas@pm.me
 
 ### What it is
 
-This script creates crosssections based on AHN5 data and polylines defining the line of (for example) a levee. It generates two kind of csv files, one with the l,z coordinates and one with the l,x,y,z coordinates. It also generates a plot of the crosssection. This data can then be used in other scripts or software.
+This script creates crosssections based on AHN5 data and polylines defining the line of (for example) a levee. It generates two kind of csv files, one with the l,z coordinates and one with the l,x,y,z coordinates. It also generates a plot of the crosssection and a shapefile with all locations as line objects. This data can then be used in other scripts or software.
 
 ### Needed files
 
