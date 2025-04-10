@@ -1,0 +1,6 @@
+shapely
+pyshp
+numpy
+rasterio
+matplotlib
+tqdm
